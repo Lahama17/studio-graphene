@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Syne:wght@500;600;800&display=swap');
+
+
+
+
+.nav-bar {
+    display: flex;
+    background-color:#1A1A1A;
+    width: 1440px;
+    height: 42px;
+}
+
+.truck {
+    margin-top: 15px;
+    margin-left: 60px;
+    width: 21px;
+    height: 12.904px;
+
+}
+.facebook{
+    margin-top: 17px;
+    margin-bottom: 17.4px;
+    margin-left:14px;
+}
+.linkedin{
+    margin-top: 17px;
+    margin-bottom: 17.3px;
+    margin-left:11.5px;
+}
+.twitter{
+
+    margin-top: 18px;
+    margin-bottom: 18.4px;
+    margin-left:12px;
+
+}
+.instagram{
+
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left:11.4px;
+    margin-right:90px;
+
+}
+
+.delivery {
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    margin-left: 7px;
+    margin-right: 14px;
+    
+}
+
+.devider {
+    width: 1px;
+    height: 19px;
+    margin-top: 11px;
+    margin-bottom: 12px;
+    
+}
+
+.Return-policy {
+    width: 109px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    margin-left: 14px;
+}
+
+.Login {
+    
+    width: 27px;
+    height: 15px;
+    margin-left: 833px;
+    margin-right: 35px;
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-top: 14px;
+    margin-right:35px ;
+    font-weight: 400;
+    line-height: normal;
+   
+
+}
+
+.Follow-us {
+    color: #626262;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+    margin-bottom: 13px;
+    margin-left: 14px;
+    
+}
+
+
+
+@media (max-width:384px){
+
+
+    .nav-bar {
+        
+        background-color:#1A1A1A;
+        width: 520px;
+        height: 42px;
+    }
+    
+    .truck {
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 21px;
+        height: 12.904px;
+    
+    }
+    .facebook{
+        margin-top: 17px;
+        margin-bottom: 17.4px;
+        margin-left:14px;
+    }
+    .linkedin{
+        margin-top: 17px;
+        margin-bottom: 17.3px;
+        margin-left:11.5px;
+    }
+    .twitter{
+    
+        margin-top: 18px;
+        margin-bottom: 18.4px;
+        margin-left:12px;
+    
+    }
+    .instagram{
+    
+        position: relative;
+        margin-top: 19px;
+        margin-bottom: 17px;
+        margin-left: 144px;
+    }
+    
+    .delivery {
+        position: absolute;
+        width: 64px;
+        height: 15px;
+        color: #626262;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        margin-top: 16px;
+        margin-left: 46px;
+            
+        
+
+
+    }
+    
+    .devider {
+        position: relative;
+        width: 1px;
+        height: 19px;
+        margin-top: 11px;
+        margin-bottom: 12px;
+        left: 80px;
+        
+    }
+        
+    
+    .Return-policy {
+        position: relative;
+        width: 64px;
+        height: 15px;
+        color: #626262;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        margin-top: 16px;
+        margin-left: 93px;
+    }
+    
+    .Login {
+        position: relative;
+        width: 27px;
+        height: 15px;
+        margin-left: 833px;
+        margin-right: 35px;
+        color: #626262;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        margin-top: 16px;
+        margin-left: 215px;
+        font-weight: 400;
+        line-height: normal;
+       
+    
+    }
+    .Follow-us{
+        display: none;
+    }
+    
+
+    
+.facebook{
+    position: relative;
+    margin-top: 19px;
+    margin-bottom: 17.4px;
+    margin-left:-24px;
+}
+.linkedin{
+    position: relative;
+    margin-top: 19px;
+    margin-bottom: 17.3px;
+    margin-left:-12px;
+}
+.twitter{
+    position: relative;
+    margin-top: 21px;
+    margin-bottom: 18.4px;
+    margin-left:5px;
+
+}
+.instagram{
+
+    position: relative;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    margin-left:9px;
+   
+
+}
+
+
+}

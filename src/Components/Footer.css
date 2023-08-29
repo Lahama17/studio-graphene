@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;800&family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
+
+
+.footer-image{
+    position: absolute;
+    width: 1440px;
+    height: 520px;
+    flex-shrink: 0;
+    top: 1560px;
+}
+.newsletter{
+    position: absolute;
+    font-size: 34px;
+    top: 1664px;
+    left: 103px;
+    right: 952px;
+    bottom: 386px;
+    width: 385px;
+    height: 52px;
+    flex-shrink: 0;
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+    font-family: Syne;
+    font-size: 26px;
+    font-family: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-about{
+    position: absolute;
+    font-size: 34px;
+    top: 1674px;
+    left: 103px;
+    right: 952px;
+    bottom: 386px;
+    width: 265px;
+    height: 52px;
+    flex-shrink: 0;
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-family: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.getintouch{
+
+        position: absolute;
+       
+        margin-right: 20px;
+        width: 630px;
+        height: 236px;
+        flex-shrink: 0;
+        color: var(--grey-scale-000, #FFF);
+        font-family: 'Syne', sans-serif;
+        font-size: 125px;
+        font-weight: 700;
+        line-height: 103.6px;
+        top: 1700px;
+        left: 80px;
+        bottom: 24px;
+        text-transform: uppercase;
+}
+
+.footername{
+    position: relative;
+    top: 1474px;
+    left: 630px;
+    width: 303px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footeremail{
+    position: relative;
+    top: 1484px;
+    left: 630px;
+    width: 303px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.footermessage{
+    position: relative;
+    top: 1500px;
+    left: 630px;
+    width: 303px;
+    height: 30px;
+    flex-shrink: 0;
+    
+    color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nameline{
+    position: relative;
+    top: 1460px;
+    left: 630px;
+    width: 528px;
+    
+
+}
+.emailline{
+    position: relative;
+    top: 1470px;
+    left: 630px;
+    width: 528px;
+    
+    
+
+}
+
+.messageline{
+    position: relative;
+    top: 1490px;
+    left: 630px;
+    width: 528px;
+    
+
+}
+.send{
+    color: var(--pimary-colour, #F07E15);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+   top: 1924px;
+   left: 1195px;
+   
+}
+.send-image{
+    position: absolute;
+    top: 1844px;
+    left: 1136px;
+
+}
+
+
+@media (max-width:384px){
+
+    .footer-image{
+        width: 520px;
+        height: 635px;
+        top: 1554px;
+        left: 1px;
+
+
+    }
+    .newsletter{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        font-size: 26px;
+        top: 1578px;
+        left: 53px;
+        right: 952px;
+        bottom: 386px;
+        width: 385px;
+        height: 52px;
+        flex-shrink: 0;
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        font-family: Syne;
+        font-size: 26px;
+        font-family: normal;
+        font-weight: 600;
+        line-height: 31.2;
+    }
+    .footer-about{
+        position: absolute;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 34px;
+        top: 1602px;
+        left: 139px;
+        right: 952px;
+        bottom: 386px;
+        width: 210px;
+        height: 52px;
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+    
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        font-family: normal;
+        font-weight: 400;
+        line-height: 21.11px;
+        text-align: center;
+    }
+    
+    .footername{
+        position: relative;
+        top: 1517px;
+        left: 29px;
+        width: 303px;
+        height: 30px;
+        flex-shrink: 0;
+        
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .footeremail{
+        position: relative;
+        top: 1530px;
+        left: 29px;
+        width: 303px;
+        height: 30px;
+        flex-shrink: 0;
+        
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .footermessage{
+        position: relative;
+        top:1540px;
+        left: 29px;
+        width: 303px;
+        height: 30px;
+        flex-shrink: 0;
+        
+        color: var(--grey-scale-200, rgba(255, 255, 255, 0.50));
+        
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .nameline{
+        position: relative;
+        top: 1506px;
+        left: 27px;
+        width: 340px;
+        
+    
+    }
+    .emailline{
+        position: relative;
+        top: 1518px;
+        left: 27px;
+        width: 340px;
+        
+        
+    
+    }
+    
+    .messageline{
+        position: relative;
+        top: 1530px;
+        left: 27px;
+        width: 340px;
+        
+    
+    }
+
+    
+.getintouch{
+
+    position: absolute;
+   
+    margin-right: 20px;
+    width: 270px;
+    height: 129px;
+    flex-shrink: 0;
+    color: var(--grey-scale-000, #FFF);
+    font-family: 'Syne', sans-serif;
+    font-size: 66px;
+    font-weight: 800;
+    line-height:50px;
+    top: 1930px;
+    left: 24px;
+    bottom: 24px;
+    text-transform: uppercase;
+}
+
+.send{
+    color: var(--pimary-colour, #F07E15);
+    width: 39px;
+    height: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 9,19px;
+    position: absolute;
+   top: 2030px;
+   left: 369px;
+   
+}
+.send-image{
+    position: absolute;
+    width: 104px;
+    height: 100px;
+    
+    border: 1.16px;
+    
+    top: 1987px;
+    left: 336px;
+
+}
+
+
+
+
+}

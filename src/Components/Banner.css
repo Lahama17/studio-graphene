@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;800&display=swap');
+
+.banner{
+    position: relative;
+    height: 56px;
+    bottom: 164px;
+   
+}
+
+.fresh{
+    position: absolute;
+width: 689px;
+height: 151px;
+flex-shrink: 0;
+color: #FFF;
+font-family: 'Syne', sans-serif;
+font-size: 135px;
+font-weight: 800;
+line-height: 102.6px;
+margin-left: 115px;
+top: 230px;
+}
+.year{
+    position: absolute;
+    width: 710px;
+    height: 144px;
+color: white;
+    top: 335px;
+    left: 432px;
+    bottom: 250px;
+    flex-shrink: 0;
+    font-family: 'Syne', sans-serif;
+    font-size: 135px;
+    font-weight: 800;
+    line-height: 102.6px;
+}
+.look{
+    position: absolute;
+    color: #ffffff;
+    width: 710px;
+    height: 144px;
+    top:447px;
+    left:187px;
+    margin-bottom: 182px;
+    right: 726px;
+    border:2px;
+
+    font-family: 'Syne', sans-serif;
+    font-size: 135px;
+    
+    font-weight: 800;
+    line-height: 102.6px; 
+    
+}
+.yellowbg{
+position: absolute;
+width: 993px;
+height: 354.301px;
+flex-shrink: 0;
+
+background: #F07E15;
+top: 393px;
+z-index: -1;
+margin-left:447px;
+bottom: 89.08px;
+
+}
+.jessica{
+    
+   
+    position: absolute;
+    width: 432px;
+    height: 654px;
+    flex-shrink: 0;
+    margin-left: 789px;
+    top: 177px;
+    bottom: 60.08px;
+    left: 105px;
+   
+    
+ 
+    
+    
+
+}
+.jacket{
+    color:black;
+    width: 117px;
+    height: 16.197px;
+    flex-shrink: 0;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-family: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 1256px;
+    top: 650px;
+    left: 34px;
+    bottom: 67.82px;
+    margin-right: 23px;
+}
+.jacket-price{
+    position: absolute;
+    margin-left: 1256px;
+    top: 665px;
+    bottom: 67.82px;
+    left:35px;
+    margin-right: 23px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-family: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+.star3{
+    position: absolute;
+    width: 367px;
+    height: 371.50px;
+
+    margin-left: 1020px;
+    top: 121px;
+    bottom: 1647px;
+    margin-right: 63px;
+    border: 1px;
+   
+}
+.seemore-line{
+    position: relative;
+    top: 612px;
+    width: 1010px;
+    height: 1px;
+}
+.star4{
+    position: relative;
+    top: 660px;
+    right: 61px;
+    width: 64px;
+    height: 97px;
+    
+ 
+}
+.seemore{
+    position: absolute;
+    font-size: 14px;
+    width: 99px;
+    height: 24px;
+    color: white;
+    top: 753px;
+    margin-left: 190px;
+    bottom: 1431px;
+    border: 1px solid white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    
+    
+    
+}
+.vector{
+    position: relative;
+   
+    
+    left: 86px;
+    bottom: 23px;
+    width: 10px;
+    height: 10px;
+    
+    
+    
+}
+
+@media (max-width:384px) {
+    .fresh{
+        position: absolute;
+        width: 248px;
+        height: 69px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: 'Syne', sans-serif;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 69.08px;
+        margin-left: 20px;
+        top: 420px;
+    }
+    .year{
+        position: absolute;
+        color: white;
+        width: 225px;
+        height: 69px;
+        top: 472px;
+        left: 156px;
+        border: 2px;
+        z-index: 1;
+        flex-shrink: 0;
+        font-family: 'Syne', sans-serif;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 69px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .look{
+        position: absolute;
+        color: #ffffff;
+        width: 215px;
+        height: 69px;
+        top: 561px;
+        left: 100px;
+        border: 1px;
+        font-family: 'Syne', sans-serif;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        
+    }
+    .yellowbg{
+        
+        position: absolute;
+    width: 525px;
+    height: 324.1px;
+    top: 410.2px;
+    left: -450.8px;
+    opacity: 0.9;
+    background: #F07E15;
+  
+   
+    }
+    .jessica{
+        
+       
+        position: absolute;
+        width: 321px;
+        height: 344.2px;
+        top: 160px;
+        left: -656px;
+        opacity: 90%;
+        z-index: -1;
+        
+
+     
+        
+        
+    
+    }
+    .jacket{
+        display: none;
+    }
+    .jacket-price{
+        display: none;
+        
+    
+    }
+    .star3{
+        position: absolute;
+        width: 272.7px;
+        height: 339.9px;
+        top: 183px;
+        left: -808px;
+        border: 1px;
+        
+        z-index: -2;
+        opacity: 100%;
+
+    }
+    .seemore-line{
+        position: relative;
+        top: 603px;
+        width: 210px;
+        height: 1px;
+        color: white;
+    }
+    .star4{
+        position: relative;
+        top: 652px;
+        left: -30px;
+     
+    }
+    .seemore{
+        position: absolute;
+        width: 97px;
+        height: 24px;
+        top: 756px;
+        left: -130px;
+        border: 1px;
+        gap: 3px;
+        border: 1px solid white;
+        
+      
+        
+        
+    }
+    .vector{
+        position: relative;
+       
+        
+        left: 85px;
+        bottom: 21px;
+        width: 10px;
+        height: 10px;
+        
+        
+        
+    }
+
+
+
+}

@@ -1,0 +1,36 @@
+.bottom{
+    position: absolute;
+    width: 1440px;
+    height: 46px;
+    top: 2080px;
+    
+    
+    color: white;
+    background-color: rgb(22, 21, 21);
+}
+.bottom-about{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:384px) {
+    .bottom{
+        position: absolute;
+        width: 520px;
+        height: 66px;
+        top: 2180px;
+        color: white;
+        background-color: rgb(22, 21, 21);
+    }
+
+    .bottom-about{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}

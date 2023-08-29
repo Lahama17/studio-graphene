@@ -1,0 +1,478 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;800&display=swap');
+
+
+.parent{
+    background-color: green;
+}
+.new-product{
+    position: absolute;
+    width: 660px;
+    height: 151px;
+    left: 83px;
+    color: rgb(0, 0, 0);
+    top: 800px;
+    margin: 10px;
+    font-family: 'Syne', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 108px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+}
+.line18{
+    position: absolute;
+    
+    margin-right: 60px;
+    width: 648px;
+    top: 890px;
+    left: 89px;
+    border: 1px;
+    right: 89px;
+    
+
+
+}
+
+.star2{
+    position: absolute;
+    top: 36px;
+    right: 1221px;
+}
+.arrow2{
+   position: absolute;
+   top: 860px;
+   left: 1178px;
+  
+   gap: 10px;
+}
+.arrow1{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+
+.apparel a{
+    width: 68px;
+    height: 21px;
+   
+   
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    position:absolute;
+    top: 1000px;
+    left: 91px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+}
+.accessories a{
+    width: 158px;
+    height: 31px;
+    
+    
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    
+    position:absolute;
+    top: 1043px;
+    left: 91px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+}
+
+.bestsellers a{
+    position: absolute;
+    width: 186px;
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    position:absolute;
+    top: 1094px;
+    left: 91px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+}
+
+.discount a{
+    position:absolute;
+    top: 1138px;
+    left: 91px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.picture1{
+    position: relative;
+    width: 310px;
+height: 322px;
+flex-shrink: 0;
+    
+   
+}
+
+.card1{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    flex-shrink: 0;
+    top: 998px;
+    margin-left: 346px;
+    bottom: 828px;
+    margin-right: 26px;
+
+
+
+}
+
+
+.floridajacket{
+    width: 258px;
+    height: 30px;
+    color: var(--grey-scale-1000, #000);
+
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.floridajacket4{
+    width: 258px;
+    height: 30px;
+    color: var(--grey-scale-1000, #000);
+
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.aboutsection{
+    width: 310px;
+    height: 125px;
+    color: var(--greyscale-400, rgba(22, 22, 21, 0.50));
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px;
+
+   
+
+}
+
+
+
+
+
+
+.card-price{
+    position: relative;
+    width: 258px;
+    height: 30px;
+    color: var(--grey-scale-1000, #000);
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom:84px;
+    
+
+}
+
+
+.card2{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    flex-shrink: 0;
+    top: 998px;
+    margin-left: 682px;
+    bottom: 828px;
+    margin-right: 26px;
+
+
+
+}
+
+
+.card3{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    flex-shrink: 0;
+    top: 998px;
+    margin-left: 1012px;
+    bottom: 828px;
+    margin-right: 26px;
+
+
+
+}
+
+.card4{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    flex-shrink: 0;
+    top: 998px;
+    margin-left: 1343px;
+    bottom: 828px;
+    margin-right: 26px;
+}
+.pointer{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 277px;
+    left: 260px;
+
+
+}
+
+
+@media (max-width:384px){
+
+
+    .new-product{
+
+    position: absolute;
+    color: black;
+    width: 287px;
+    height: 90px;
+    top: 820px;
+    left: 23px;
+    
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+    }
+    .line18{
+        position: absolute;
+        
+        width: 648px;
+        top: 862px;
+        left: 33px;
+        border: 1px;
+        
+
+    
+    
+    }
+    
+
+    .star2{
+        position: absolute;
+        width: 22px;
+        top: -628px;
+        left: -175px;
+
+    }
+
+    
+.apparel a{
+    width: 53px;
+    height: 16px;
+    top: 841px;
+    left: 28px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    position:absolute;
+    top: 900px;
+    left: 37px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.accessories a{
+    width: 53px;
+    height: 16px;
+    top: 896.8px;
+    left: 97px;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+}
+
+.bestsellers a{
+    width: 133px;
+    height: 16px;
+    top: 901px;
+    left: 218px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgb(0, 0, 0);
+}
+
+.discount a{
+    position:absolute;
+    width: 53px;
+    height: 16px;
+    top: 794px;
+    left: 315px;
+    bottom: 1128px;
+    color: rgb(0, 0, 0);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.42
+}
+
+
+
+.card1{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    
+    top: 940px;
+    left: -330px;
+    
+
+
+
+}
+
+.card2{
+    position: absolute;
+    width: 310px;
+    height: 322px;
+    
+    top: 940px;
+    left: -330px;
+
+
+
+}
+
+.card3,.card4{
+    display: none;
+}
+
+
+
+.floridajacket{
+    position: relative;
+    width: 258px;
+    height: 30px;
+    color: var(--grey-scale-1000, #000);
+
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.2px;
+    left: 0px;
+    text-transform: uppercase;
+}
+
+.aboutsection{
+    position: relative;
+    width: 248px;
+    height: 49px;
+    color: var(--greyscale-400, rgba(22, 22, 21, 0.50));
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.42px;
+    margin-left: 0px;
+   
+
+}
+
+
+
+
+.card-price{
+    position: relative;
+    width: 258px;
+    height: 30px;
+    color: var(--grey-scale-1000, #000);
+    font-family: 'Syne', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 24px;
+    top: -15px;
+    
+
+}
+
+.arrow2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1496px;
+    left: 185px;
+    gap: 10px;
+
+ }
+ .arrow1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+     top: 0px;
+     left: 71px;
+
+
+
+
+
+ }
+
+}

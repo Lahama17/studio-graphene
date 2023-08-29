@@ -1,0 +1,95 @@
+.Logosecion{
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+    .line-wrapper {
+        position: absolute;
+        margin-right: 90px;
+        top: -7px;
+    }
+    
+    .Logoname{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 275;
+    line-height: 60px;
+    margin-left: 90px;
+    height: 60px;
+    width: 176px;
+    top: 41px;
+    border: 1px;
+    }
+    .line17{
+    width: 1260px;
+    height: 1px;
+    margin-top: 60px; 
+    margin-left: 90px;
+    margin-right: 90px;
+    background: #FFF;
+    }
+    .wishlist{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-family: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-top: 29px;
+    margin-left: 934px;
+    }
+    .bag{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-family: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-top: 29px;
+    margin-left: 10px;
+    }
+    .star1{
+    width: 21.144px;
+    height: 22px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: var(--grey-scale-000, #FFF);
+    padding-left: 476px;
+    margin-right: 942.86px;
+    top: -15px;
+    position: relative;
+    }
+
+    
+@media (max-width:384px){
+
+    
+    .Logoname{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 275;
+        line-height: 60px;
+        margin-left: 10px;
+        height: 60px;
+        width: 176px;
+        top: 41px;
+        border: 1px;
+        }
+
+        .line17{
+            width: 520px;
+            height: 1px;
+            margin-top: 70px; 
+            margin-left: 10px;
+            margin-right: 90px;
+            background: #FFF;
+            }
+            .star1{
+               display: none;
+                }
+}

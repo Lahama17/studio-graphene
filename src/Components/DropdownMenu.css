@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;800&family=Work+Sans:wght@300;500;600&display=swap');
+
+
+.navbar {
+  background: transparent;
+  color: #fff;
+
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.nav-item1 {
+  color: #FFF;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style:bold;
+  line-height: normal;
+  width: 71px;
+  height: 28px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+
+  top: 74px;
+  margin-left: 137px;
+}
+
+.nav-item2 {
+  width: 70px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  top: 74px;
+  margin-left: 106px;
+  text-decoration: bold;
+
+}
+
+.nav-item3 {
+  width: 159px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 106px;
+  text-transform: uppercase;
+
+
+}
+
+
+.nav-item4 {
+  width: 118px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 106px;
+  text-transform: uppercase;
+
+
+
+}
+
+.dropdown {
+  position: relative;
+  display:flex;
+}
+
+
+.dropbtn {
+ position: relative;
+ display: flex;
+ 
+  color: #FFF;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+ 
+
+  
+  
+  
+}
+
+.dropbtn:hover {
+  position: relative;
+  display: flex;
+  
+   color: #FFF;
+   font-family: 'Work Sans', sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 20px;
+   
+   border-bottom: 1px solid white;
+   
+   
+ }
+ 
+
+.dropdown-content{
+  
+  
+
+   
+   position: absolute;
+   display: grid;
+   justify-content:baseline;
+   border: 2px solid#FFFFFF;
+  width: 222px;
+  height: 174px;
+  
+  }
+
+ 
+
+
+.product-link{
+  position: relative;
+  color: #ffffff;
+  margin-top: 10px;
+  width: 129px;
+  
+  top: 12px;
+  
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: left;
+  transition: 7ms ease-in-out;
+  
+
+  
+}
+
+.dropdown.active .dropdown-content {
+  border: 1px solid #000;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
+
+
+@media (max-width:384px){
+  .nav-list {
+    position: absolute;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+.nav-list.active {
+    left: 0;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+
+
+.nav-item1 {
+  color: #FFF;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  width: 71px;
+  height: 28px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+
+  top: 74px;
+  margin-left: 137px;
+}
+
+.nav-item2 {
+  width: 70px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: 74px;
+  margin-left: 106px;
+  text-transform: uppercase;
+
+}
+
+.nav-item3 {
+  width: 159px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 106px;
+  text-transform: uppercase;
+
+
+}
+
+
+.nav-item4 {
+  width: 118px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Syne', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 106px;
+  text-transform: uppercase;
+
+
+
+}
+
+
+
+}
